@@ -71,9 +71,10 @@ yiic job
 
 This is the index command which will sync your jobs in the config with your database and run all jobs that are due.
 
-For testing:
-   
-1. Copy file Tests/commands/TestJob.php to your project commands directory
+Testing
+----------
+
+1. Copy file tests/TestJob.php to your project commands directory
 2. Run twice from console: './yiic job' or wait one minute if you added command to cron
 3. Check result(log) on UI jobs page: Job status must be 'Success'
 

@@ -35,7 +35,7 @@ In your config add the JobManager component:
 			'class' => 'application.modules.job.components.JobManager',
 			'jobs' => array(
 						array(
-							'class' => 'MyJob', //this is your own class that extends application.modules.job.models.Job
+							'class' => 'TestJob', //this is your own class that extends application.modules.job.models.Job
 							'crontab' => '* 3 * * *'
 						)
 					)
